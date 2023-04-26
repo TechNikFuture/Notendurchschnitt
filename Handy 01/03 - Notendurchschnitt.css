@@ -1,0 +1,338 @@
+@font-face {
+    font-family:Chirota_Regular;
+    src: url(Chirota\ Regular.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color:black;
+    text-align: center;
+
+
+}
+
+body {
+
+
+    font-family: 'Chirota_Regular';
+    position: relative;
+    background: linear-gradient(to right top,#65dfc9, #6cdbeb);
+
+    
+    }
+
+    
+    p#erklärung {
+        font-size: 4mm;
+
+    }
+    h1 {
+        font-size: 8mm;
+        text-align: center;
+        
+    }
+    #result {
+        font-size: 7mm;
+    }
+
+    #note_anzahl {
+        font-size: 7mm;
+    }
+
+    #result_anzahl_normal1 {
+        font-size:4mm;
+    }
+
+    #result_anzahl_normal2 {
+        font-size: 4mm;
+    }
+    #result_anzahl_groß {
+        font-size: 7mm;
+    }
+    #button1 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';        
+    }
+    #button1:hover {
+        background-color:transparent;
+    }
+    #button1:active {
+        position:relative;
+        top:1px;
+    }
+
+    #button21 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button21:hover {
+        background-color:transparent;
+    }
+    
+    
+    #button21:active {
+        position:relative;
+        top:1px;
+    }
+    
+    #button22 {
+    background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-family: 'Chirota_Regular';
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button22:hover {
+        background-color:transparent;
+    }
+    #button22:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+
+    #button23 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button23:hover {
+        background-color:transparent;
+    }
+    #button23:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+
+    #button24 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button24:hover {
+        background-color:transparent;
+    }
+    #button24:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+
+    #button25 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button25:hover {
+        background-color:transparent;
+    }
+    #button25:active {
+        position:relative;
+        top:1px;
+    }
+
+
+    
+    #button26 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button26:hover {
+        background-color:transparent;
+    }
+    #button26:active {
+        position:relative;
+        top:1px;
+    }
+    
+    #result_durchschnitt_normal {
+    font-size: 4mm;
+    }
+    #result_durchschnitt_groß {
+        font-size: 7mm;
+    }
+    #button3 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #button3:hover {
+        background-color:transparent;
+    }
+    #button3:active {
+        position:relative;
+        top:1px;
+    }
+
+    #buttonnoten {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+    }
+    #buttonnoten:hover {
+        background-color:transparent;
+    }
+    #buttonnoten:active {
+        position:relative;
+        top:1px;
+    }
+    
+    #buttonbis20 {
+        background-color:transparent;
+        border-radius:3000px;
+        border:3px solid ;
+        display:inline-block;
+        cursor:pointer;
+        font-size:17px;
+        padding:7px 13px;
+        text-decoration:none;
+        font-family: 'Chirota_Regular';
+        }
+    #buttonbis20:hover {
+        background-color:transparent;
+    }
+    #buttonbis20:active {
+        position:relative;
+        top:1px;
+    }
+
+    main {
+
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+  }
+
+    .glas {
+
+        position: relative;
+        
+
+        background: linear-gradient(
+          to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.2)
+         ) ;
+         border-radius: 30px;
+
+
+        backdrop-filter: blur(8px);
+    }
+    
+    .glas_inside {
+        
+        margin-top: 1.2cm;
+        margin-bottom: 1.2cm;
+        margin-left: 0.7cm;
+        margin-right: 0.7cm;
+        
+    }
+    .circle1,.circle2,.circle3 {
+
+        background: white;
+        background: linear-gradient(
+            to right bottom,
+           rgba(255, 255, 255, 0.1),
+           rgba(255, 255, 255, 0.9)
+           ) ;
+        position: absolute;
+        z-index: -2;
+        border-radius: 50%;
+    }
+
+    .circle1 {
+        top: 10%;
+        left: 50%;
+        background: linear-gradient(
+            to right bottom,
+           rgba(50, 231, 34, 1),
+           rgba(255, 255, 255, 0.000001)
+           ) ;
+           width: 45mm;
+           height: 45mm;
+    }
+    .circle2 {
+        top: 40%;
+        left: 15%;
+        background: linear-gradient(
+            to right bottom,
+           rgb(34, 136, 231),
+           rgba(255, 255, 255, 0.000001)
+           ) ;
+           width: 30mm;
+           height: 30mm;
+    }
+    .circle3 {
+        top: 70%;
+        left: 45%;
+        background: linear-gradient(
+            to right bottom,
+           rgba(231, 218, 34, 1),
+           rgba(255, 255, 255, 0.000001)
+           ) ;
+           width: 40mm;
+           height: 40mm;
+    }
